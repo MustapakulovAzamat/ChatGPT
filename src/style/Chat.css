@@ -1,0 +1,21 @@
+
+.modal {
+    display: none;
+}
+
+.modal.open{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.modal__content.open {
+    position: fixed;
+    top: 0;
+    width: 400px;
+    height: 400px;
+    background-color: black;
+}
+.modal__content li {
+    list-style-type: none;
+}
